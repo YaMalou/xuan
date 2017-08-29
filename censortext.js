@@ -2,8 +2,8 @@ var consoreWords = ['sad','bad','mad'];
 var customCensoredWords = [];
 
 function censor(inStr){
-	for(idx in censoreWords) {
-		inStr = inStr.replace(censoreWords[idx],'****');
+	for(idx in consoreWords) {
+		inStr = inStr.replace(consoreWords[idx],'****');
 	}
 	for(idx in customCensoredWords) {
 		inStr = inStr.replace(customCensoredWords[idx],'****');
@@ -16,7 +16,7 @@ function addCensoreWord(word) {
 }
 
 function getCensoreWords(){
-	return censoreWords.concat(customCensoredWords);
+	return consoreWords.concat(customCensoredWords);
 }
 
 exports.censor = censor;

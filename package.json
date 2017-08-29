@@ -1,9 +1,18 @@
 {
 	"author" : "XUAN",
-	"name" : "censorify",
-	"version" : "0.1.0",
+	"name" : "xuanleilei_censorify",
+	"version" : "1.1.0",
 	"description" : "Censors words out of text",
 	"main" : "censortext",
+	"repository" : {
+		"type" : "git",
+		"url" : "http://github.com/YaMalou/xuan/tree/master"
+	},
+	"keywords" : [
+		"censor",
+		"words",
+		"xuanleilei"
+	],
 	"dependencies" : {},
 	"engines" : {
 		"node" : "*"
