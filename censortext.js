@@ -15,7 +15,7 @@ function addCensoreWord(word) {
 	customCensoredWords.push(word);
 }
 
-function getCensoreWords(data){
+function getCensoreWords(){
 	return consoreWords.concat(customCensoredWords);
 }
 
